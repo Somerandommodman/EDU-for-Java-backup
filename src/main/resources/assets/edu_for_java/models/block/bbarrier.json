@@ -1,7 +1,7 @@
 {
-  "parent": "block/wall_inventory",
+  "parent": "block/cube_all",
   "textures": {
-    "wall": "edu_for_java:blocks/barrier",
+    "all": "edu_for_java:blocks/barrier",
     "particle": "edu_for_java:blocks/barrier"
   },
   "render_type": "solid"

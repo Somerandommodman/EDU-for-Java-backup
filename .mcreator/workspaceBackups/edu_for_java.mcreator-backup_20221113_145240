@@ -1,0 +1,41 @@
+{
+  "mod_elements": [
+    {
+      "name": "Bbarrier",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbarrier"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.edu_for_java.bbarrier": "Bbarrier"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "edu_for_java",
+    "modName": "EDU for java",
+    "version": "1.0.0",
+    "author": "caden, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.eduforjava",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200346416
+}

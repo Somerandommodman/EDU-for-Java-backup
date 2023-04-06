@@ -1,7 +1,18 @@
 {
-  "parent": "block/template_wall_side",
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "children": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "edu_for_java:models/item/barrierlong.obj",
+      "emissive_ambient": true,
+      "textures": {
+        "#m_52a28ea4-5a88-0630-d34b-058f51675379": "edu_for_java:blocks/",
+        "#m_4ad1adf4-1ebe-72bf-c8f2-1465ffafd69c": "edu_for_java:blocks/"
+      }
+    }
+  },
   "textures": {
-    "wall": "edu_for_java:blocks/barrier",
     "particle": "edu_for_java:blocks/barrier"
   },
   "render_type": "solid"

@@ -1,3 +1,6 @@
 {
-  "parent": "edu_for_java:block/barrier_inventory"
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "edu_for_java:blocks/barrier"
+  }
 }

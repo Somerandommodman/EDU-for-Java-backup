@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "edu_for_java:blocks/placeholder",
+    "up": "edu_for_java:blocks/placeholder",
+    "north": "edu_for_java:blocks/placeholder",
+    "east": "edu_for_java:blocks/placeholder",
+    "south": "edu_for_java:blocks/placeholder",
+    "west": "edu_for_java:blocks/placeholder",
+    "particle": "edu_for_java:blocks/placeholder"
+  },
+  "render_type": "solid"
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "edu_for_java:blocks/barrier",
-    "particle": "edu_for_java:blocks/barrier"
-  },
-  "render_type": "solid"
-}

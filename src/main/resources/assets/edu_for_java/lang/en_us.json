@@ -1,3 +1,7 @@
 {
-  "block.edu_for_java.barrier": "Barrier"
+  "block.edu_for_java.smallblackboard": "Smallblackboard",
+  "block.edu_for_java.barrier": "Barrier",
+  "block.edu_for_java.labtable": "Labtable",
+  "block.edu_for_java.bbarrier": "Barrier",
+  "itemGroup.tabedu": "EDU"
 }

@@ -29,8 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.eduforjava.init.EduForJavaModTabs;
+import net.mcreator.eduforjava.init.EduForJavaModMenus;
 import net.mcreator.eduforjava.init.EduForJavaModItems;
 import net.mcreator.eduforjava.init.EduForJavaModBlocks;
+import net.mcreator.eduforjava.init.EduForJavaModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -46,11 +49,15 @@ public class EduForJavaMod {
 
 	public EduForJavaMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		EduForJavaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		EduForJavaModBlocks.REGISTRY.register(bus);
 		EduForJavaModItems.REGISTRY.register(bus);
+
+		EduForJavaModBlockEntities.REGISTRY.register(bus);
+
+		EduForJavaModMenus.REGISTRY.register(bus);
 
 	}
 

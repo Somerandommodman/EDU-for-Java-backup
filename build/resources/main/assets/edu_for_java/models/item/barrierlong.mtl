@@ -1,0 +1,20 @@
+newmtl m_4ad1adf4-1ebe-72bf-c8f2-1465ffafd69c
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd edu_for_java:blocks/
+Ns 100.0
+d 1.0
+newmtl m_52a28ea4-5a88-0630-d34b-058f51675379
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+map_Kd edu_for_java:blocks/
+Ns 100.0
+d 1.0
+newmtl none
+Ka 0.0 0.0 0.0
+Kd 0.0 0.0 0.0
+Ks 0.0 0.0 0.0
+Ns 100.0
+d 1.0

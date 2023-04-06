@@ -1,19 +1,63 @@
 {
   "mod_elements": [
     {
+      "name": "Bbarrier",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bbarrier"
+    },
+    {
+      "name": "EDU",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "edu"
+    },
+    {
       "name": "Barrier",
       "type": "block",
-      "sortid": 1,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "barrier"
+    },
+    {
+      "name": "LabTable",
+      "type": "gui",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lab_table"
+    },
+    {
+      "name": "Smallblackboard",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallblackboard"
+    },
+    {
+      "name": "Labtable",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "labtable"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.edu_for_java.barrier": "Barrier"
+      "block.edu_for_java.smallblackboard": "Smallblackboard",
+      "block.edu_for_java.barrier": "Barrier",
+      "block.edu_for_java.labtable": "Labtable",
+      "block.edu_for_java.bbarrier": "Barrier",
+      "itemGroup.tabedu": "EDU"
     }
   },
   "foldersRoot": {
@@ -34,6 +78,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.eduforjava",
     "lockBaseModFiles": false
   },
