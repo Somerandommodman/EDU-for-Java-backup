@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="EDU for java"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
-authors="caden, MCreator"
+authors="Overlordcoder999"
 
 [[dependencies.edu_for_java]]
     modId="minecraft"
